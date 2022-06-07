@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li{
+  padding-bottom: 10px;
+}
+
+.App-light-mode {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.App-dark-mode {
+  background-color: rgb(46, 45, 45);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+}
+
+.App-dark-mode .title-app {
+  background-color: black;
+  width: min(450px, 100%);
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(164, 5, 250);
+  gap: 20px;
+}
+
+.App-light-mode .title-app {
+  width: min(450px, 100%);
+  text-align: center;
+  padding: 15px 0;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(164, 5, 250);
+  gap: 20px;
+}
+
+.img-world{
+  width: 10%;
+  height: 10%;
+}
+
+.App-dark-mode .main-content {
+  background-color: black;
+  color: white;
+  display: grid;
+  box-sizing: border-box;
+  width: min(450px, 100%);
+  min-height: fit-content;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  border-radius: 20px;
+  border: 5px solid rgb(164, 5, 250);
+  padding: 0;
+}
+
+.photo-weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(98, 98, 98);
+  border-radius: 50%;
+}
+
+.App-light-mode .main-content {
+  display: grid;
+  box-sizing: border-box;
+  width: min(450px, 100%);
+  min-height: fit-content;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+  border-radius: 20px;
+  border: 5px solid rgb(164, 5, 250);
+  padding: 0;
+}
+
+.App-dark-mode .main-content img {
+  width: 150%;
+  height: 70%;
+}
+
+.App-light-mode .main-content img {
+  width: 150%;
+  height: 70%;
+}
+
+.temperature-add{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.temperature-add img {
+  width: 20%;
+  height: 20%;
+}
+.temperature-add div {
+  text-align: center;
+  background-color: rgb(164, 5, 250);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0.25;
+  font-size: 17px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  padding: 40px;
+  z-index: 1;
+  gap: 50px;
+}
+.card button{
+  background-color: rgb(226, 189, 43);
+  border-radius: 30px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.card img{
+  width: fit-content;
+  height: fit-content;
+}
+
+.disapear{
+  display: none;
+}
+
+.cardX{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  padding: 40px;
+  z-index: 1;
+  gap: 50px;
+}
